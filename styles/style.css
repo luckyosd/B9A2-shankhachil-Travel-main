@@ -78,7 +78,6 @@
             left: 200px;
             right: 200px;
             color: white;
-            line-height: 80px;
         }
         
         .text-items h1 {
@@ -151,7 +150,7 @@
             min-height: 400px;
             margin: 50px 400px;
             display: grid;
-            gap: 20px;
+            gap: 7px;
             grid-template-columns: repeat(12, 1fr);
             grid-template-rows: repeat(3, 1fr);
         }
@@ -183,11 +182,11 @@
         }
         
         .grid-item-6 {
-            grid-column: 1/span 7;
+            grid-column: 1/span 5;
         }
         
         .grid-item-7 {
-            grid-column: 8/span 12;
+            grid-column: 6/span 12;
         }
         
         .why-choose-us {
@@ -196,32 +195,52 @@
         
         .section-cont {
             display: flex;
-            justify-content: space-evenly;
+            gap: 20px;
         }
         
         .container-des {
-            width: 573px;
-            height: 284px;
-            margin: 0 300px;
-            border-radius: 16px;
+            width: 700px;
+            height: 300px;
+            margin-top: 100px;
+            margin-left: 400px;
             border-radius: 16px;
             padding-left: 50px;
             border: 1px solid rgba(251, 181, 99, 0.20);
             background: rgba(251, 181, 99, 0.05);
         }
         
-        .font {
-            font-size: medium;
+        .container-des img {
+            width: 20%;
         }
         
         .location {
-            width: 573px;
-            height: 284px;
-            margin: 0 300px;
+            width: 700px;
+            height: 300px;
+            margin-top: 100px;
+            margin-right: 400px;
             border-radius: 16px;
             padding-left: 50px;
             border: 1px solid rgba(251, 181, 99, 0.20);
             background: rgba(251, 181, 99, 0.05);
+        }
+        
+        .location img {
+            width: 20%;
+        }
+        
+        .container-des .location h1 {
+            color: #131318;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        
+        .container-des .location p {
+            color: #5A5A5D;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            /* 162.5% */
         }
         
         .deals-us {
