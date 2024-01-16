@@ -21,8 +21,7 @@
         .header-section {
             max-width: 1250px;
             display: flex;
-            margin: 0 auto;
-            border: 2px solid violet;
+            margin: 20px auto;
         }
         
         .nav-container {
@@ -31,6 +30,11 @@
             width: 50%;
             align-items: center;
             gap: 10px;
+        }
+        
+        .nav-container p {
+            font-size: 36px;
+            font-weight: 800;
         }
         
         .nav-container img {
@@ -46,6 +50,12 @@
         
         .items-container a {
             text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        .home {
+            color: red;
         }
         
         .banner-section {}
@@ -53,7 +63,7 @@
         .banner-img {
             max-width: 1200px;
             min-height: 500px;
-            margin: 0 auto;
+            margin: 100px auto;
             position: relative;
             border-radius: 16px;
             opacity: 1;
@@ -104,7 +114,6 @@
         .text-img {
             max-width: 1200px;
             min-height: 400px;
-            border: 1px solid blue;
             margin: 100px auto;
             padding-top: 50px;
             display: flex;
@@ -133,8 +142,14 @@
             text-align: center;
         }
         
+        .sal {
+            text-align: center;
+        }
+        
         .image-box {
-            border: 1px solid blue;
+            max-width: 1250px;
+            min-height: 400px;
+            margin: 50px 400px;
             display: grid;
             gap: 20px;
             grid-template-columns: repeat(12, 1fr);
@@ -144,16 +159,15 @@
         .image-box img {
             width: 100%;
             height: 100%;
-            border: 1px solid black;
         }
         
         .grid-item-1 {
-            grid-column: 1/span 6;
+            grid-column: 1/span 7;
             grid-template-rows: 1/span 6;
         }
         
         .grid-item-2 {
-            grid-column: 7/span 12;
+            grid-column: 8/span 12;
         }
         
         .grid-item-3 {
@@ -169,22 +183,20 @@
         }
         
         .grid-item-6 {
-            grid-column: 1/span 6;
+            grid-column: 1/span 7;
         }
         
         .grid-item-7 {
-            grid-column: 7/span 12;
+            grid-column: 8/span 12;
         }
         
         .why-choose-us {
-            max-width: 1200px;
-            border: 1px solid blue;
-            margin: 100px auto;
             text-align: center;
         }
         
         .section-cont {
             display: flex;
+            justify-content: space-evenly;
         }
         
         .container-des {
@@ -215,12 +227,16 @@
         .deals-us {
             max-width: 1250px;
             min-height: 400px;
-            margin: 0 auto;
-            border: 1px solid turquoise;
+            margin: 100px auto;
         }
         
         .du {
             text-align: center;
+        }
+        
+        .du h2 {
+            font-size: 40px;
+            font-weight: 800;
         }
         
         .oe {
@@ -280,7 +296,6 @@
         .simple {
             max-width: 1200px;
             min-height: 400px;
-            border: 1px solid blue;
             margin: 100px auto;
             display: flex;
             position: relative;
@@ -288,7 +303,25 @@
         
         .place {
             width: 700px;
-            border: 1px solid blue;
+        }
+        
+        .place h1 {
+            font-size: 40px;
+            font-weight: 800;
+        }
+        
+        .place p {
+            color: #5A5A5D;
+            font-size: 16px;
+            font-weight: 400;
+            /* 162.5% */
+        }
+        
+        .place ul li {
+            color: #131318;
+            font-size: 16px;
+            font-weight: 700;
+            * 162.5% */
         }
         
         .heel {
@@ -319,6 +352,8 @@
             width: 474px;
             height: 422px;
             border-radius: 16px;
+            line-height: 25px;
+            padding: 50px;
         }
         
         .tr {
@@ -335,6 +370,21 @@
             position: absolute;
             bottom: 50px;
             right: 18px;
+        }
+        
+        .form-part input {
+            width: 400px;
+            height: 50px;
+            margin-top: 10px;
+        }
+        
+        .btn {
+            width: 400px;
+            height: 50px;
+            background-color: #FF5400;
+            border: 0;
+            color: #FFF;
+            margin-top: 10px;
         }
         
         .footer {
